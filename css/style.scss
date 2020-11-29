@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    .text{
+    padding: 20px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-img-top{
+        width: 315px;
+        height: 315px;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-primary{
+        width: 30%;
+        background-color: orange;
+        border-radius: 15px;
+    }
+}
